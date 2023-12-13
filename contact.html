@@ -1,0 +1,164 @@
+<!--------f-----------
+
+    Project 4
+    Name: Dharmi Patel
+    Date: 2023-12-09
+    Description: Project 4
+
+--------------------->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DharmiPatelP4Website</title>
+        <link rel="stylesheet" href="styles.css">
+    
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header>
+        <!--NAV-BAR SECTION [HEADER]-->
+            <nav class="navbar">
+                <div class="navbar_container">
+                    <a href="index.html">
+                        <img id="navbar_logo" src="images/logo.png" alt="logo">
+                    </a>
+                    <div class="navbar_toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                
+                    <ul class="navbar_menu">
+                        <li class="navbar_item"><a href="index.html" class="navbar_links">Home</a></li>
+                        <li class="navbar_item"><a href="art.html" class="navbar_links">Art</a></li>
+                        <li class="navbar_item"><a href="poetry.html" class="navbar_links">Poetry</a></li>
+                        <li class="navbar_item"><a href="contact.html" class="navbar_links">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    
+        <main>
+        <!--MAIN AREA-->
+            <div class="container">
+                <span class="big-circle"></span>
+                <img src="img/shape.png" class="square" alt="shape" />
+                <div class="form">
+                    <div class="contact-info">
+                        <h3 class="title">Hire Me!</h3>
+                        <p class="text">Looking to elevate your project to new heights? <br>I'm here to match your goals with the perfect solution. Let's collaborate and craft something extraordinary together! Share your vision, and let's make it a reality. <br>Get in touch, and let's create something amazing!</p>
+                        <div class="info">
+                            <div class="information">
+                                <img src="images/map.png" class="icon" alt="map" />
+                                <p>Winterpeg, Manisnowba, CA.</p>
+                            </div>
+                            <div class="information">
+                                <img src="images/email.png" class="icon" alt="email" />
+                                <p>visualverses@email.com</p>
+                            </div>
+                            <div class="information">
+                                <img src="images/phone.png" class="icon" alt="phone" />
+                                <p>123-456-7890</p>
+                            </div>
+                        </div>
+                    
+                        <div class="social-media">
+                            <p>Connect with Me!</p>
+                            <div class="social-icons">
+                                <a href="#"><img src="images/facebook.png" alt="facebook"  class="media-icon"></a>
+                                <a href="#"><img src="images/instagram.png" alt="instagram" class="media-icon"></a>
+                                <a href="#"><img src="images/linkedin.png" alt="linkedin" class="media-icon"></a>
+                                <a href="#"><img src="images/twitter.png" alt="twitter" class="media-icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="contact-form">
+                        <span class="circle one"></span>
+                        <span class="circle two"></span>
+                        
+                        <form id="contact_form" action="index.html"> 
+                            <h3 class="title">Contact Me!</h3>
+                            <div class="input-container">
+                                <label for="name" id="name_label">Name :</label>
+                                <input type="text" name="name" class="input" id="name" />
+                                <p class="contactError error" id="name_error">* Required Field</p> 
+                            </div>
+                            <div class="input-container">                                
+                                <label for="email" >Email :</label>
+                                <input type="text" name="email" class="input" id="email" />
+                                <p class="contactError error" id="email_error">* Required field</p>
+                                <p class="contactError error" id="emailformat_error">* Invalid Email Address</p>
+                            </div>
+                            <div class="input-container">
+                                <label for="phone" id="phone_label">Phone :</label>
+                                <input type="text" name="phone" class="input" id="phone"/>
+                                <p class="contactError error" id="phone_error">* Required field</p>
+                                <p class="contactError error" id="phoneformat_error">* Invalid Phone Number</p>
+                            </div>
+                            <div class="input-container textarea">
+                                <label for="message" id="message_id">Message :</label>
+                                <textarea name="message" class="input" id="message"></textarea>
+                                <p class="contactError error" id="message_error">* Required field</p> 
+                            </div>
+                            <p class="center">
+                                <button type="submit" id="submit" class="btn">Submit</button>
+                                <button type="reset" id="clear" class="btn">Reset</button>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+                <span class="big-circle2"></span>
+            </div>
+        </main>
+    
+        <footer>
+            <!--FOOTER SECTION-->
+            <div class="footer_container">
+                <div class="footer_links">
+                    <div class="footer_link-wrapper">
+                        <div class="footer_link-items">
+                            <h2>About Us</h2>
+                            <a href="index.html">Home</a>
+                            <a href="contact.html">Contact</a>
+                        </div>
+                    </div>
+                    <div class="footer_link-wrapper">
+                        <div class="footer_link-items">
+                            <h2>Portfolio</h2>
+                            <a href="art.html">Art</a>
+                            <a href="poetry.html">Poetry</a>
+                        </div>
+                    </div>
+                    <div class="social_icons">
+                        <a href="/" class="social_icon-link"> 
+                            <img src="images/facebook.png" alt="facebook">
+                        </a>
+                        <a href="/" class="social_icon-link"> 
+                            <img src="images/twitter.png" alt="twitter">
+                        </a>
+                        <a href="/" class="social_icon-link"> 
+                            <img src="images/instagram.png" alt="instagram">
+                        </a>
+                        <a href="/" class="social_icon-link"> 
+                            <img src="images/linkedin.png" alt="linkedIn">
+                        </a>
+                    </div>
+                </div>
+                <div class="social_media">
+                    <div class="social_media-wrap">
+                        <div class="footer_logo">
+                            <img id="footer_logo" src="images/logo.png" alt="logo">
+                        </div>
+                        <p class="website_right">© Visual Verses 2023.  All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>
